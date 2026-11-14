@@ -1,0 +1,44 @@
+LECTURO! — LECTURE POUR LE CP
+================================
+Version 1 — application web installable sur mobile (PWA)
+
+FONCTIONNEMENT
+- 3 niveaux : facile, moyen, avancé.
+- 10 QCM par partie : 6 phrases à compléter + 4 lectures avec question.
+- 2 essais par question. Après 2 erreurs, la correction est affichée.
+- Bilan après les 10 questions, puis choix « Rejouer ».
+- 600 questions possibles : 270 phrases à compléter, et 165 textes avec 2 questions par texte.
+- Les questions déjà posées sont mémorisées localement afin de réduire les répétitions.
+- Aucune connexion, inscription ou donnée d'enfant requise une fois l'application installée.
+
+UTILISER LE JEU SUR ORDINATEUR
+Ouvrez index.html dans votre navigateur, même sans Internet.
+
+PUBLIER SUR GITHUB PAGES — SANS LIGNE DE COMMANDE
+1. Créez un nouveau dépôt public GitHub, par exemple "lecturo-cp".
+2. Cliquez sur Add file > Upload files.
+3. Envoyez LES FICHIERS de ce dossier à la RACINE du dépôt :
+   index.html, manifest.webmanifest, sw.js, apple-touch-icon.png,
+   icon-192.png, icon-512.png (et ce texte facultatif).
+   Important : les 3 images sont à la racine, pas dans un dossier icons/.
+4. Settings > Pages > Build and deployment > Deploy from a branch >
+   Branch main > /(root) > Save.
+5. Adresse finale : https://VOTRE-PSEUDO.github.io/lecturo-cp/
+
+IPHONE / IPAD
+Dans Safari, ouvrez l'adresse GitHub Pages et choisissez Partager >
+Sur l'écran d'accueil > Ajouter. L'icône bleue au livre apparaît.
+Si une ancienne icône s'affiche, supprimez le raccourci et recréez-le.
+
+ANDROID
+Dans Chrome, ouvrez le site et utilisez Installer l'application,
+ou Ajouter à l'écran d'accueil.
+
+NOTES
+- Le jeu ne fait appel à aucun service tiers et n'envoie aucune donnée.
+- La mémoire des questions déjà vues est stockée uniquement dans le
+  navigateur (localStorage). Elle est indépendante sur chaque appareil.
+- Après une suppression des données du navigateur, les questions déjà vues
+  pourront de nouveau apparaître.
+- Le fichier LecturO-CP.html livré à part est une copie autonome du jeu.
+- Les modifications sont libres, le code est éditable.
